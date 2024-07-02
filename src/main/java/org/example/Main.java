@@ -2,11 +2,11 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        String word1 = "joy";
-        String word2 = "Chris";
-        MergeAlternatively mergeAlternatively = new MergeAlternatively();
-        String word = mergeAlternatively.mergeAlternately(word1, word2);
+        String word1 = "egbas";
+        String word2 = "s";
+        RetrieveStringAtIndex retrieveStringAtIndex = new RetrieveStringAtIndex();
+        int index = retrieveStringAtIndex.stringAtIndex(word1, word2);
 
-        System.out.println(word);
+        System.out.println(index);
     }
 }
