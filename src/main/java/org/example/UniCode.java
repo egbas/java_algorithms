@@ -8,4 +8,9 @@ public class UniCode {
         num = str.codePointAt(index);
         return num;
     }
+
+    public int unicodeBeforeIndex(String str, int index){
+        int num = str.codePointAt(index -1);
+        return num;
+    }
 }

@@ -2,12 +2,11 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        String word1 = "egbas";
-        int word2 = 4;
-        UniCode retrieveStringAtIndex = new UniCode();
-        int index = retrieveStringAtIndex.getUnicode(word1, word2);
 
+        RemoveCharFromString rem = new RemoveCharFromString();
 
-        System.out.println(index);
+        String word = "How are you doing bro";
+        String checker = "bao";
+        System.out.println(rem.removeChar(word, checker));
     }
 }
